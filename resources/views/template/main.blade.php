@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>POrtfolio</title>
-    <link rel="stylesheet" href="{{asset('style.css')}}">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
-<body>
-    <h1>hello</h1>
-    <script src="{{asset('js/main.js')}}"></script>
+<body id="body">
+
+    <div>
+        @yield('content')
+    </div>
+
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

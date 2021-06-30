@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// font
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway/static/Raleway-Black.ttf")
+};
+@font-face {
+    font-family: "Avenir";
+    src: url("../font/Avenir\ Roman.otf")
+};
+
+
+@import 'mainstyle';
+@import 'hero'

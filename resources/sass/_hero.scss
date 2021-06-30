@@ -1,0 +1,23 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3760ff;
+    font-family: Avenir;
+    padding-top: 200px;
+}
+#violette{
+    font-size: 65px;
+    font-weight: 800;
+}
+.dev{
+    font-size: 50px;
+    -webkit-text-stroke: 1px  #3760ff; 
+     -webkit-text-fill-color: transparent
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%
+}
